@@ -1,0 +1,49 @@
+
+@import 'scss/_utilidades/_variables';
+@media (min-width: 768px) and (max-width: 1024px){
+    #carouselExampleFade{
+        display:block;
+        margin-top: 100px;
+        border-top: 1px outset $borde_1;
+        padding-top: 50px;
+    }
+    
+    .img_carru{
+        height: 600px;
+        width: 500px;
+    display: block;
+    width: 500px;
+    margin:0 auto;
+   }
+
+   .text-home{
+    margin:30px;
+   }
+
+.descrip{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    p{
+            font-size: 18x;
+    }
+    img{
+        width: 400px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+}
+
+.descripcion_Promo{
+   
+    display: flex;
+    flex-direction: column;
+    
+    column-gap: 20px;
+    justify-content: space-evenly;
+    p{
+        font-size: 20px;
+    }
+}
+   
+}
